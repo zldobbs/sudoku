@@ -8,7 +8,7 @@ class Tile extends Component {
     render() {
         return (
             <div className="tile col s4">
-                <span>num</span>
+                <span>{this.props.val > -1 ? this.props.val : ''}</span>
             </div>
         );
     }
